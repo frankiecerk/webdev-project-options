@@ -15,7 +15,7 @@ project_root/
 |       └── components # React components that are reused and need to be imported globally
 |           └── names.jsx
 └── templates/
-    └── base.html # include React, babel and all components globally, provide div with id #content entrypoint for React
+    └── base.html # include React, babel, axios and other 3rd party libraries, and all components globally, provide div with id #content entrypoint for React
     └── index.html # extend base.html and include the corresponding page.jsx
     └── birds.html # extend base.html and include the corresponding page.jsx
 ```
